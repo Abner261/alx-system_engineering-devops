@@ -32,7 +32,7 @@
 - Make sure to include the steps you followed to use the SFTP command-line tool in your project’s README.md file. This will help the reviewers understand how you performed the file transfer using SFTP.
 
 #### NOTE:
-- The screenshoots of completed level should be inside the dir `/root/alx-system_engineering-devops/command_line_for_the_win/`
+- The screenshoots of completed level should be inside the dir <span style="color:green">`/root/alx-system_engineering-devops/command_line_for_the_win/`</span>
 
 ##### [0]First 九 tasks
 - Complete the first 9 tasks
