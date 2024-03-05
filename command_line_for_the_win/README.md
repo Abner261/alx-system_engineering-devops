@@ -32,13 +32,31 @@
 - Make sure to include the steps you followed to use the SFTP command-line tool in your project’s README.md file. This will help the reviewers understand how you performed the file transfer using SFTP.
 
 #### NOTE:
-- The screenshoots of completed level should be inside the dir `/root/alx-system_engineering-devops/command_line_for_the_win/`
+- The screenshoots of completed level should be inside the dir <span style="color:green">`/root/alx-system_engineering-devops/command_line_for_the_win/`</span>
 
 ##### [0]First 九 tasks
 - Complete the first 9 tasks
 
+##### Repo:
+
+- **GitHub repository:** `alx-system_engineering-devops`
+- **Directory:** `command_line_for_the_win`
+- **File:** `0-first_9_tasks.jpg,0-first_9_tasks.png`
+
 #### [1]Reach חי completed tasks
 - Complete the 9 next tasks, getting to 18 total
 
+##### Repo:
+
+- **GitHub repository:** `alx-system_engineering-devops`
+- **Directory:** `command_line_for_the_win`
+- **File:** `1-next_9_tasks.jpg,1-next_9_tasks.png`
+
 #### [2]Reach the perfect cube, 27
 - Complete the 9 next tasks, getting to 27 total
+
+##### Repo:
+
+- **GitHub repository:** `alx-system_engineering-devops`
+- **Directory:** `command_line_for_the_win`
+- **File:** `2-next_9_tasks.jpg,2-next_9_tasks.png`
