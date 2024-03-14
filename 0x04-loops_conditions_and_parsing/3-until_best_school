@@ -9,7 +9,6 @@ until [ $counter -gt 10 ]
 do
 	# Print "Best School"
 	echo "Best School"
-
 	# Increment the counter
 	(( counter++ ))
 done
