@@ -1,14 +1,9 @@
 #!/usr/bin/env bash
 # This bash script displays "Best School" using until loop
 
-# Counter variable to keep track of iterations
 counter=0
-
-# Loop until the counter reaches 10
 until [ $counter -gt 10 ]
 do
-	# Print "Best School"
 	echo "Best School"
-	# Increment the counter
 	(( counter++ ))
 done
