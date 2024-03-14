@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
-#This script displays "Best School" 10 times using a for loop
+#This bash script displays "Best School" 10 times using a for loop
 
+#Assigning the school name to a variable called "School_name"
 School_name="Best School"
 
+#Using a for loop to repeat the display of school name 10 times
 for _ in {1..10}
 do
+	#Printing the school name in this case "Best School"
 	echo "$School_name"
 done
