@@ -10,15 +10,13 @@ counter=0
 while [ $counter -lt 10 ]
 do
 	# Check if it's the 9th iteration
-	if [ $counter -eq 8 ]
+	if [ $counter -eq 9 ]
 	then
-		# Print "Best School" and then "Hi" on a new line
-		echo "Best School"
+		# Print "Hi"
 		echo "Hi"
-	else
-		# Print "Best School" for all other iterations
-		echo "Best School"
 	fi
+	# Print "Best School"
+	echo "Best School"
 	# Increment the counter
 	((counter++))
 done
