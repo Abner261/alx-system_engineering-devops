@@ -7,6 +7,9 @@
 # Home directory path for the user
 # Requirements:
 # You must use the while loop (for and until are forbidden)
-while read -r passwd; do
-	echo "$passwd" | cut -d ":" -f 1, 3, 6
-done < "/etc/passwd"
+
+file="/etc/passwd"
+while IFS= read -r line
+do
+	echo "$line" | cut -d":" -f1,3,6
+done < "$file"
