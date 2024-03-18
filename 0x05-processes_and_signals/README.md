@@ -212,10 +212,31 @@
 	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals#
 	```
 
-#### Note that I `ctrl+ci` (killed) the Bash script in the example.
+#### Note that I `ctrl+c` (killed) the Bash script in the example.
 
 #### Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x05-processes_and_signals`
 - File: `4-to_infinity_and_beyond`
+
+5. [Don't stop me now!](./5-dont_stop_me_now)
+
+- We stopped our `4-to_infinity_and_beyond` process using `ctrl+c` in the previous task, there is actually another way to do this.
+
+- Write a Bash script that stops `4-to_infinity_and_beyond` process
+
+- Requirements:
+
+	- You must use `kill`
+- Terminal #0
+
+Terminal #1
+
+- I opened 2 terminals in this example, started by running my `4-to_infinity_and_beyond` Bash script in terminal #0 and then moved on terminal #1 to run `5-dont_stop_me_now`. We can then see in terminal #0 that my process has been terminated.
+
+#### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `5-dont_stop_me_now`
