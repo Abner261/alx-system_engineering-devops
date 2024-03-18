@@ -82,7 +82,6 @@
    - File: `1-list_your_processes`
 
 	```sh
-	
 	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# vi 1-list_your_processes
 	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# chmod u+x 1-list_your_processes
 	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# ./1-list_your_processes | head -50
@@ -137,7 +136,6 @@
 	root     12623  0.0  0.0   7236   804 pts/309  Ss+  Mar06   0:00 /bin/bash
 	root     12604  0.0  0.0   7236   808 pts/308  Ss   Mar06   0:00 /bin/bash
 	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals#
-
 	```
 
 2. [Show your Bash PID](./2-show_your_bash_pid)
@@ -156,7 +154,6 @@
    - File: `2-show_your_bash_pid`
 
 	```sh
-			
 	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# vi 2-show_your_bash_pid
 	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# chmod u+x 2-show_your_bash_pid
 	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# ./2-show_your_bash_pid
@@ -165,7 +162,6 @@
 	root     14791  0.0  0.0   6300   712 pts/346  S+   06:00   0:00      \_ grep bash
 	root     14655  0.0  0.0   7236  3888 pts/345  Ss+  03:05   0:00 /bin/bash
 	root     14584  0.0  0.0   7236  3968 pts/344  Ss+  02:10   0:00 /bin/bash
-
 	```
 
 3. [Show your Bash PID made easy](./3-show_your_bash_pid_made_easy)
