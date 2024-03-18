@@ -69,6 +69,18 @@
 
 - Write a Bash script that displays a list of currently running processes
 
+##### Requirements:
+
+   - Must show all processes, for all users, including those which might not have a TTY
+   - Display in a user-oriented format
+   - Show process hierarchy
+
+##### Repo:
+
+   - GitHub repository: `alx-system_engineering-devops`
+   - Directory: `0x05-processes_and_signals`
+   - File: `1-list_your_processes`
+
 	```sh
 	
 	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# vi 1-list_your_processes
@@ -127,15 +139,31 @@
 	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals#
 
 	```
-	
+
+2. [Show your Bash PID](./2-show_your_bash_pid)
+
+- Using your previous exercise command, write a Bash script that displays lines containing the `bash` word, thus allowing you to easily get the PID of your Bash process.
+
 ##### Requirements:
 
-   - Must show all processes, for all users, including those which might not have a TTY
-   - Display in a user-oriented format
-   - Show process hierarchy
+   - You cannot use `pgrep`
+   - The third line of your script must be `# shellcheck disable=SC2009` (for more info about ignoring `shellcheck` error [here](https://github.com/koalaman/shellcheck/wiki/Ignore))
 
 ##### Repo:
 
    - GitHub repository: `alx-system_engineering-devops`
    - Directory: `0x05-processes_and_signals`
-   - File: `1-list_your_processes`
+   - File: `2-show_your_bash_pid`
+
+	```sh
+			
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# vi 2-show_your_bash_pid
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# chmod u+x 2-show_your_bash_pid
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# ./2-show_your_bash_pid
+	root     14668  0.0  0.0   7236  4012 pts/346  Ss   03:09   0:00 /bin/bash
+	root     14789  0.0  0.0   6972  3312 pts/346  S+   06:00   0:00  \_ bash ./2-show_your_bash_pid
+	root     14791  0.0  0.0   6300   712 pts/346  S+   06:00   0:00      \_ grep bash
+	root     14655  0.0  0.0   7236  3888 pts/345  Ss+  03:05   0:00 /bin/bash
+	root     14584  0.0  0.0   7236  3968 pts/344  Ss+  02:10   0:00 /bin/bash
+
+	```	
