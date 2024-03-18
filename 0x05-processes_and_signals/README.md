@@ -166,4 +166,34 @@
 	root     14655  0.0  0.0   7236  3888 pts/345  Ss+  03:05   0:00 /bin/bash
 	root     14584  0.0  0.0   7236  3968 pts/344  Ss+  02:10   0:00 /bin/bash
 
-	```	
+	```
+
+3. [Show your Bash PID made easy](./3-show_your_bash_pid_made_easy)
+
+- Write a Bash script that displays the PID, along with the process name, of processes whose name contain the word `bash`
+
+##### Requirements:
+
+  - You cannot use `ps`
+
+		```sh
+	
+	sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
+	4404 bash
+	4555 bash
+	sylvain@ubuntu$ ./3-show_your_bash_pid_made_easy
+	4404 bash
+	4557 bash
+	sylvain@ubuntu$
+
+	```
+
+##### Here we can see that:
+
+   - For the first iteration: `bash` PID is `4404` and that the `3-show_your_bash_pid_made_easy` script PID is `4555`
+   - For the second iteration:`bash` PID is `4404` and that the `3-show_your_bash_pid_made_easy` script PID is `4557`
+##### Repo:
+
+   - GitHub repository: alx-system_engineering-devops
+   - Directory: 0x05-processes_and_signals
+   - File: `3-show_your_bash_pid_made_easy`
