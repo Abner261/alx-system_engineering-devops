@@ -190,3 +190,32 @@
    - GitHub repository: alx-system_engineering-devops
    - Directory: 0x05-processes_and_signals
    - File: `3-show_your_bash_pid_made_easy`
+
+4. [To infinity and beyond](./4-to_infinity_and_beyond)
+
+- Write a Bash script that displays `To infinity and beyond` indefinitely.
+
+##### Requirements:
+
+   - In between each iteration of the loop, add a `sleep 2`
+
+	```sh
+	
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# vi 4-to_infinity_and_beyond
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# chmod u+x 4-to_infinity_and_beyond
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# ./4-to_infinity_and_beyond
+	To infinity and beyond
+	To infinity and beyond
+	To infinity and beyond
+	To infinity and beyond
+	^C
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals#
+	```
+
+#### Note that I `ctrl+ci` (killed) the Bash script in the example.
+
+#### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x05-processes_and_signals`
+- File: `4-to_infinity_and_beyond`
