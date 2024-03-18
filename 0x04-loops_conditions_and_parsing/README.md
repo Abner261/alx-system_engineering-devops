@@ -248,3 +248,47 @@
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x04-loops_conditions_and_parsing`
 - File: `101-tell_the_story_of_passwd`
+
+##### [13]Write a Bash script that displays the visitor IP along with the [HTTP status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) from the Apache log file.
+
+##### Requirement:
+
+- Format: IP HTTP_CODE
+	- in a list format
+	- See example
+- You must use `awk`
+- You are not allowed to use `while`, `for`, `until` and cut
+- Download and commit the [apache-access.log file](https://intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/80/apache-access.log) along with your answers files
+
+- [Apache](https://en.wikipedia.org/wiki/Apache_HTTP_Server) is among the most popular web servers in the world, serving 50% of all active websites, no doubt that you will have to interact with it within your career
+
+- As a Full-Stack Software Engineer, you have to master the art of parsing log files. Today we will do a simple parsing of [Apache log access files](http://intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/80/apache-access.log)
+
+- Today the Customer Support department reported that a user reported that the site is being “buggy”. Not being a detailed description, you want to have a look at the Apache logs and gather data about the traffic
+
+##### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x04-loops_conditions_and_parsing`
+- File: `102-lets_parse_apache_logs`
+
+##### [14]write a Bash script that groups visitors by IP and HTTP status code, and displays this data
+- Now that you’ve parsed the Apache log file, let’s sort the data so you can get a better idea of what is going on.
+
+- Using what you did in the previous exercise, write a Bash script that groups visitors by IP and HTTP status code, and displays this data.
+
+##### Requirements:
+
+- The exact format must be:
+     - OCCURENCE_NUMBER IP HTTP_CODE
+     - In list format
+- Ordered from the greatest to the lowest number of occurrences
+      - See example
+- You must use `awk`
+- You are not allowed to use `while`, `for`, `until` and `cut`
+
+##### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x04-loops_conditions_and_parsing`
+- File: `103-dig_the-data`
