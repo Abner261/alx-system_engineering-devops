@@ -45,7 +45,17 @@
 #### (0) [What is my PID](./0-what-is-my-pid)
 
 - Write a Bash script that displays its own PID
-
+	```sh
+	
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# vi 0-what-is-my-pid
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# chmod u+x 0-what-is-my-pid
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# ls
+	0-what-is-my-pid  README.md
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# ./0-what-is-my-pid
+	14617
+	root@e1714dc5a3c9:~/alx-system_engineering-devops/0x05-processes_and_signals# 
+	
+	```
 ##### Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
