@@ -231,7 +231,7 @@
 	- You must use `kill`
 - Terminal #0
 
-Terminal #1
+- Terminal #1
 
 - I opened 2 terminals in this example, started by running my `4-to_infinity_and_beyond` Bash script in terminal #0 and then moved on terminal #1 to run `5-dont_stop_me_now`. We can then see in terminal #0 that my process has been terminated.
 
@@ -240,3 +240,22 @@ Terminal #1
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x05-processes_and_signals`
 - File: `5-dont_stop_me_now`
+
+6. [Stop me if you can](./6-stop_me_if_you_can)
+
+- Write a Bash script that stops `4-to_infinity_and_beyond` process
+
+- Requirements:
+
+   - You cannot use kill or killall
+- Terminal #0
+
+- Terminal #1
+
+- I opened 2 terminals in this example, started by running my `4-to_infinity_and_beyond` Bash script in terminal #0 and then moved on terminal #1 to run `6-stop_me_if_you_can`. We can then see in terminal #0 that my process has been terminated.
+
+#### Repo:
+
+   - GitHub repository: alx-system_engineering-devops
+   - Directory: 0x05-processes_and_signals
+   - File: `6-stop_me_if_you_can`
