@@ -63,8 +63,6 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 
 0. [Simply matching School](./0-simply_match_school.rb)
 
-- <img src="./project_aid/regex-task0.png" alt="Task-0" width=100%>
-+ <img src="./extra/regex-task0.png" alt="Task-0" width=100%>
 
 #### Requirements:
 
@@ -90,3 +88,122 @@ root@e1714dc5a3c9:~/alx-system_engineering-devops/0x06-regular_expressions#
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x06-regular_expressions`
 - File: `0-simply_match_school.rb`
+
+1. [Repetition Token #0](./1-repetition_token_0.rb)
+
+#### Requirements:
+
+- Find the regular expression that will match the above cases
+- Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+#### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
+- File: `1-repetition_token_0.rb`
+
+2. [Repetition Token #1](./2-repetition_token_1.rb)
+
+#### Requirements:
+
+- Find the regular expression that will match the above cases
+- Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+#### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
+- File: `2-repetition_token_1.rb`
+
+3. [Repetition Token #2](./3-repetition_token_2.rb)
+
+#### Requirements:
+
+- Find the regular expression that will match the above cases
+- Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+##### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
+- File: `3-repetition_token_2.rb`
+
+4. [Repetition Token #3](./4-repetition_token_3.rb)
+
+#### Requirements:
+
+- Find the regular expression that will match the above cases
+- Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+- Your regex should not contain square brackets
+#### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
+- File: `4-repetition_token_3.rb`
+
+5. [Not quite HBTN yet](./5-beginning_and_end.rb)
+
+#### Requirements:
+
+- The regular expression must be exactly matching a string that starts with h ends with n and can have any single character in between
+- Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+- Example:
+```sh
+root@e1714dc5a3c9:~/alx-system_engineering-devops/0x06-regular_expressions# vi 5-beginning_and_end.rb
+root@e1714dc5a3c9:~/alx-system_engineering-devops/0x06-regular_expressions# chmod u+x 5-beginning_and_end.rb
+root@e1714dc5a3c9:~/alx-system_engineering-devops/0x06-regular_expressions# ./5-beginning_and_end.rb 'hn' | cat -e
+$
+root@e1714dc5a3c9:~/alx-system_engineering-devops/0x06-regular_expressions# ./5-beginning_and_end.rb 'hbn' | cat -e
+hbn$
+root@e1714dc5a3c9:~/alx-system_engineering-devops/0x06-regular_expressions# ./5-beginning_and_end.rb 'hbtn' | cat -e
+$
+root@e1714dc5a3c9:~/alx-system_engineering-devops/0x06-regular_expressions# ./5-beginning_and_end.rb 'h8n' | cat -e
+h8n$
+root@e1714dc5a3c9:~/alx-system_engineering-devops/0x06-regular_expressions#
+```
+#### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
+- File: `5-beginning_and_end.rb`
+
+6. [Call me maybe](./6-phone_number.rb)
+
+- This task is brought to you by a professional advisor [Neha Jain](https://twitter.com/_nehajain), Senior Software Engineer at LinkedIn.
+
+#### Requirement:
+
+- The regular expression must match a 10 digit phone number
+- Example:
+
+#### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
+- File: `6-phone_number.rb`
+
+7. [OMG WHY ARE YOU SHOUTING?](./7-OMG_WHY_ARE_YOU_SHOUTING.rb)
+
+#### Requirement:
+
+- The regular expression must be only matching: capital letters
+- Example:
+
+#### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
+- File: `7-OMG_WHY_ARE_YOU_SHOUTING.rb`
+
+8. [Textme](./100-textme.rb)
+
+This exercise was prepared for you by Guillaume Plessis, VP of Infrastructure at TextMe. It is something he uses daily. You can thank Guillaume for his project on Twitter.
+
+For this task, you’ll be taking over Guillaume’s responsibilities: one afternoon, a TextMe VoIP Engineer comes to you and explains she wants to run some statistics on the TextMe app text messages transactions.
+
+Requirements:
+
+Your script should output: [SENDER],[RECEIVER],[FLAGS]
+The sender phone number or name (including country code if present)
+The receiver phone number or name (including country code if present)
+The flags that were used
+You can find a [log file here].
+
+- Example:
