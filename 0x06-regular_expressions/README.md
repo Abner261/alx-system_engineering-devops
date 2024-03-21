@@ -194,16 +194,22 @@ root@e1714dc5a3c9:~/alx-system_engineering-devops/0x06-regular_expressions#
 
 8. [Textme](./100-textme.rb)
 
-This exercise was prepared for you by Guillaume Plessis, VP of Infrastructure at TextMe. It is something he uses daily. You can thank Guillaume for his project on Twitter.
+- This exercise was prepared for you by [Guillaume Plessis](https://www.linkedin.com/in/gplessis/), VP of Infrastructure at TextMe. It is something he uses daily. You can thank Guillaume for his project [on Twitter](https://twitter.com/gui).
 
-For this task, you’ll be taking over Guillaume’s responsibilities: one afternoon, a TextMe VoIP Engineer comes to you and explains she wants to run some statistics on the TextMe app text messages transactions.
+- For this task, you’ll be taking over Guillaume’s responsibilities: one afternoon, a TextMe VoIP Engineer comes to you and explains she wants to run some statistics on the TextMe app text messages transactions.
 
-Requirements:
+#### Requirements:
 
-Your script should output: [SENDER],[RECEIVER],[FLAGS]
-The sender phone number or name (including country code if present)
-The receiver phone number or name (including country code if present)
-The flags that were used
-You can find a [log file here].
+- Your script should output: `[SENDER],[RECEIVER],[FLAGS]`
+	- The sender phone number or name (including country code if present)
+	- The receiver phone number or name (including country code if present)
+	- The flags that were used
+You can find a [log file here](http://intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/78/text_messages.log).
 
 - Example:
+
+##### Repo:
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x06-regular_expressions`
+- File: `100-textme.rb`
