@@ -45,13 +45,13 @@
 
 - An IP attached to a computer
 - A hostname that means this IP
-- (Answer)A hostname that means this computer
+- _**(Answer)A hostname that means this computer**_
 
 #### Question #1
 ##### What is 0.0.0.0?
 
 - It means null in networking
-- (Answer)All IPv4 addresses on the local machine
+- _**(Answer)All IPv4 addresses on the local machine**_
 - All the IPs
 
 ### Tasks
