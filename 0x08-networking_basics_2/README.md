@@ -131,7 +131,7 @@ sylvain@ubuntu$
 
 - Note that we can see our `localhost` IP :)
 
-* Repo:
+#### Repo:
 
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x08-networking_basics_2`
