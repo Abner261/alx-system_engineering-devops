@@ -31,7 +31,7 @@ use `atoi()` function to convert a string to an integer
 - Write the `server_add.c` server program that replies with the `sum` of numbers received from
 the client program. The server process should work in connection-oriented and concurrent- server mode
 
-* **Server Program (server_add.c):*8
+* **Server Program (server_add.c):**
 
 	- The server program will wait for connections from clients and receive two integers from each client
 	- It will calculate the sum of the received integers and send the result back to the client
@@ -64,17 +64,38 @@ gcc -o server_add server_add.c
 
 ```sh
 root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming# ls
-client_add.c  README.md  server_add.c
-root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming# gcc -o client_add client_add.c 
-root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming# ls
-client_add  client_add.c  README.md  server_add.c
-root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming# gcc -o server_add server_add.c 
+client_add  client_add.c  README.md  server_add  server_add.c
+root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming# vi client_add.c
+root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming# vi server_add.c
 root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming# ls
 client_add  client_add.c  README.md  server_add  server_add.c
+root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming# gcc -o client_add client_add.c
+root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming# gcc -o server_add server_add.c
+root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming# ls
+client_add  client_add.c  README.md  server_add  server_add.c
+root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming# ./client_add 10 5
+Integer 1 as string: 123
+Integer 2 as string: -456
+String 3 as integer: 789
+String 4 as integer: -1011
+Sum received from server: 560
 root@e1714dc5a3c9:~/alx-system_engineering-devops/Network_Programming#
 ```
-- [4] At the terminal, `use netstat` to indicate how TCP connection, establishment and termination
+
+- [4] At the terminal, use `netstat` to indicate how TCP connection, establishment and termination
 are achieved. What are the various TCP states
+
+* **Using netstat to Observe TCP Connection:**
+
+	- You can use the `netstat` command to observe TCP connections, their establishment, and termination
+	- It will display various states of TCP connections, such as `ESTABLISHED`, `CLOSE_WAIT`, `TIME_WAIT`,
+	- This command provides insights into how TCP connections are managed by the operating system
+
+* **For example:**
+
+```sh
+netstat -ant
+```
 
 ```sh
 root@Engineer:/mnt/c/Windows/system32# netstat -ant
