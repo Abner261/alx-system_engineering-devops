@@ -8,6 +8,11 @@
 
 #define PORT 8080
 
+/**
+ * client_add.c - A Client program that sends two integers to the server and displays the sum received
+ */
+
+
 int main(int argc, char *argv[]) {
     // Test sprintf() function
     int num1 = 123;
@@ -33,7 +38,7 @@ int main(int argc, char *argv[]) {
 
     if (argc != 3) {
         printf("Usage: %s <integer1> <integer2>\n", argv[0]);
-        return 1;
+        return (1);
     }
 
     int sockfd;
@@ -43,7 +48,7 @@ int main(int argc, char *argv[]) {
     // Create socket
     if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
         perror("Socket creation error");
-        return 1;
+        return (1);
     }
 
     serv_addr.sin_family = AF_INET;
@@ -52,13 +57,13 @@ int main(int argc, char *argv[]) {
     // Convert IPv4 and IPv6 addresses from text to binary form
     if (inet_pton(AF_INET, "127.0.0.1", &serv_addr.sin_addr) <= 0) {
         perror("Invalid address/ Address not supported");
-        return 1;
+        return (1);
     }
 
     // Connect to server
     if (connect(sockfd, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0) {
         perror("Connection failed");
-        return 1;
+        return (1);
     }
 
     // Send data to server
@@ -71,6 +76,6 @@ int main(int argc, char *argv[]) {
     printf("Sum received from server: %s\n", buffer);
 
     close(sockfd);
-    return 0;
+    return (0);
 }
 
