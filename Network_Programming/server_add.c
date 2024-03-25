@@ -7,6 +7,11 @@
 
 #define PORT 8080
 
+/**
+ * server_add.c - A Server program receives two integers from clients, calculates their sum, and replies
+ * Return: 0 success
+ */
+
 int main() {
     // Test sprintf() function
     int num1 = 123;
@@ -83,6 +88,6 @@ int main() {
         close(new_socket);
     }
 
-    return 0;
+    return (0);
 }
 
