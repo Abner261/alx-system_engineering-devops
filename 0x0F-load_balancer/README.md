@@ -13,3 +13,5 @@
 * **Readme:**
 	- [Load-balancing](https://www.thegeekstuff.com/2016/01/load-balancer-intro/)
 	- [Load-balancing algorithms](https://web.archive.org/web/20240418081327/https://community.f5.com/kb/technicalarticles/intro-to-load-balancing-for-developers-%E2%80%93-the-algorithms/273759)
+
+- [Web stack debugging](https://github.com/Abner261/alx-system_engineering-devops/commit/1fe46ca108d8f75074f3585acc03d391f39a91f8) 
