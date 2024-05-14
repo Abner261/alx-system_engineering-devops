@@ -39,4 +39,37 @@
 
 There is a good chance that at this point you will already have found part of the issue
 
+### Get a quick overview of the machine state
 
+[Youtube video First 5 Commands When I Connect on a Linux Server](https://www.youtube.com/watch?v=1_gqlbADaAw)
+
+When you connect to a server/machine/computer/container you want to understand what’s happened recently and what’s happening now, and you can do this with [5 commands](https://www.linux.com/training-tutorials/first-5-commands-when-i-connect-linux-server/) in a minute or less:
+
+* **w**
+
+	- shows server [uptime](https://www.techtarget.com/whatis/definition/uptime-and-downtime) which is the time during which the server has been continuously running
+	- shows which users are connected to the server
+	- load average will give you a good sense of the server health - (read more about load [here](https://scoutapm.com/blog/understanding-load-averages) and [here](https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html))
+
+* **history**
+
+	- shows which commands were previously run by the user you are currently connected to
+	- you can learn a lot about what type of work was previously performed on the machine, and what could have gone wrong with it
+	- where you might want to start your debugging work
+
+* **top**
+
+	- shows what is currently running on this server
+	- order results by CPU, memory utilization and catch the ones that are resource intensive
+
+* **df**
+
+	- shows disk utilization
+
+* **netstat**
+
+	- what port and IP your server is listening on
+	- what processes are using sockets
+	- try `netstat -lpn` on a Ubuntu machine
+
+### Machine
