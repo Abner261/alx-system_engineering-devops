@@ -74,7 +74,7 @@ When you connect to a server/machine/computer/container you want to understand w
 
 ### Machine
 
-	- Debugging is pretty much about verifying assumptions, in a perfect world the software or system we are working on would be working perfectly, the server is in perfect shape and everybody is happy. But actually, it NEVER goes this way, things ALWAYS fail (it’s tremendous!).
+- Debugging is pretty much about verifying assumptions, in a perfect world the software or system we are working on would be working perfectly, the server is in perfect shape and everybody is happy. But actually, it NEVER goes this way, things ALWAYS fail (it’s tremendous!).
 
 * **For the machine level, you want to ask yourself these questions:**
 
@@ -93,12 +93,12 @@ When you connect to a server/machine/computer/container you want to understand w
 
 * For the machine level, you want to ask yourself these questions:
 
-	- Does the server have the expected network interfaces and IPs up and running? `ifconfig`
-	- Does the server listen on the sockets that it is supposed to? `netstat` (`netstat -lpd` or `netstat -lpn`)
-	- Can you connect from the location you want to connect from, to the socket you want to connect to? `telnet` to the IP + PORT (`telnet 8.8.8.8 80`)
-	- Does the server have the correct firewall rules? `iptables`, `ufw`:
-           - `iptables -L`
-           - `sudo ufw status`
+ - Does the server have the expected network interfaces and IPs up and running? `ifconfig`
+ - Does the server listen on the sockets that it is supposed to? `netstat` (`netstat -lpd` or `netstat -lpn`)
+ - Can you connect from the location you want to connect from, to the socket you want to connect to? `telnet` to the IP + PORT (`telnet 8.8.8.8 80`)
+ - Does the server have the correct firewall rules? `iptables`, `ufw`:
+    - `iptables -L`
+    - `sudo ufw status`
 
 ### Process issue
 
