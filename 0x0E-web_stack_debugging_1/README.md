@@ -91,7 +91,7 @@ When you connect to a server/machine/computer/container you want to understand w
 
 ### Network issue
 
-* For the machine level, you want to ask yourself these questions:
+* **For the machine level, you want to ask yourself these questions:**
 
  - Does the server have the expected network interfaces and IPs up and running? `ifconfig`
  - Does the server listen on the sockets that it is supposed to? `netstat` (`netstat -lpd` or `netstat -lpn`)
@@ -104,14 +104,18 @@ When you connect to a server/machine/computer/container you want to understand w
 
 * If a piece of Software isn’t behaving as expected, it can obviously be because of above reasons… but the good news is that there is more to look into (there is ALWAYS more to look into actually).
 
-Is the software started? init, init.d:
-service NAME_OF_THE_SERVICE status
-/etc/init.d/NAME_OF_THE_SERVICE status
-Is the software process running? pgrep, ps:
-pgrep -lf NAME_OF_THE_PROCESS
-ps auxf
-Is there anything interesting in the logs? look for log files in /var/log/ and tail -f is your friend
-Debugging is fun
-Debugging can be frustrating, but it will definitely be part of your job, it requires experience and methodology to become good at it. The good news is that bugs are never going away, and the more experienced you become, trickier bugs will be assigned to you! Good luck :)
+ * **Is the software started?** `init`, `init.d`:
+    - `service NAME_OF_THE_SERVICE status`
+    - `/etc/init.d/NAME_OF_THE_SERVICE status`
+
+ * **Is the software process running?** `pgrep`, `ps`:
+    - `pgrep -lf NAME_OF_THE_PROCESS`
+    - `ps auxf`
+
+* Is there anything interesting in the logs? look for log files in `/var/log/` and `tail -f` is your friend
+
+### Debugging is fun
+
+- Debugging can be frustrating, but it will definitely be part of your job, it requires experience and methodology to become good at it. The good news is that bugs are never going away, and the more experienced you become, trickier bugs will be assigned to you! Good luck :)
 
 
