@@ -118,4 +118,4 @@ When you connect to a server/machine/computer/container you want to understand w
 
 - Debugging can be frustrating, but it will definitely be part of your job, it requires experience and methodology to become good at it. The good news is that bugs are never going away, and the more experienced you become, trickier bugs will be assigned to you! Good luck :)
 
-
+![Debugging](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/e1243e75352b7cd5fd9aa5225a159090618bce5d/0x0E-web_stack_debugging_1/B4eeypV.jpg)
