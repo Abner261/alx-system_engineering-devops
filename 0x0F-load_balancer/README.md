@@ -48,3 +48,11 @@
 	- Your Bash script must pass `Shellcheck` (version `0.3.7`) without any error
 	- The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`
 	- The second line of all your Bash scripts should be a comment explaining what is the script doing
+
+### Your servers
+
+|Name		|Username	|IP		|State		|
+|---------------|---------------|---------------|---------------|	
+|132436-web-01	|		|		|		|
+|132436-web-02	|		|		|		|
+|132436-lb-01	|		|		|		|
