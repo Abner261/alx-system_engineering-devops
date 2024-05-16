@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Configure web-02 to be identical with web-01
+# A Bash script configure web-02 to be identical with web-01 
 #an ubuntu machine to have a custom header X-Served-By
 
 # Update package information
