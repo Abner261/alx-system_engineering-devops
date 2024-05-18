@@ -61,7 +61,7 @@
 
 0. [Double the number of webservers](0-custom_http_response_header)
 
-- In this first task you need to configure `web-02` to be identical to `web-01`. Fortunately, you built a Bash script during your [web server project](0x0C. Web server), and they’ll now come in handy to easily configure `web-02`. Remember, always try to automate your work!
+- In this first task you need to configure `web-02` to be identical to `web-01`. Fortunately, you built a Bash script during your [web server project](https://intranet.alxswe.com/projects/266), and they’ll now come in handy to easily configure `web-02`. Remember, always try to automate your work!
 
 - Since we’re placing our web servers behind a load balancer for this project, we want to add a custom Nginx response header. The goal here is to be able to track which web server is answering our HTTP requests, to understand and track the way a load balancer works. More in the coming tasks.
 
@@ -89,4 +89,38 @@ If your server’s hostnames are not properly configured (`[STUDENT_ID]-web-01` 
 
 1. [Install your load balancer](1-install_load_balancer)
 
+Install and configure HAproxy on your `lb-01` server.
 
+* **Requirements:**
+
+	- Configure HAproxy so that it send traffic to `web-01` and `web-02`
+	- Distribute requests using a roundrobin algorithm
+	- Make sure that HAproxy can be managed via an init script
+	- Make sure that your servers are configured with the right hostnames: `[STUDENT_ID]-web-01` and `[STUDENT_ID]-web-02`. If not, follow this [tutorial](https://docs.aws.amazon.com/linux/al2/ug/set-hostname.html)
+	- For your answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements
+
+Example:
+
+```sh
+
+```
+
+* **Repo:**
+
+	- GitHub repository: `alx-system_engineering-devops`
+	- Directory: `0x0F-load_balancer`
+	- File: `1-install_load_balancer`
+
+2. [Add a custom HTTP header with Puppet](2-puppet_custom_http_response_header.pp)
+
+Just as in task #0, we’d like you to automate the task of creating a custom HTTP header response, but with Puppet.
+
+	- The name of the custom HTTP header must be `X-Served-By`
+	- The value of the custom HTTP header must be the hostname of the server Nginx is running on
+	- Write `2-puppet_custom_http_response_header.pp` so that it configures a brand new Ubuntu machine to the requirements asked in this task
+
+* **Repo:**
+
+	- GitHub repository: `alx-system_engineering-devops`
+	- Directory: `0x0F-load_balancer`
+	- File: `2-puppet_custom_http_response_header.pp`
