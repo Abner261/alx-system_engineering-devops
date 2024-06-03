@@ -14,35 +14,45 @@ Welcome to an exciting phase in your ALX journey**—Section 3**, where you’ll
 
 We also had a Q & A Session on Zoom. If you prefer watching a video you can use this. *Recording - * [Link](https://sandtech.zoom.us/rec/component-page?action=viewdetailpage&sharelevel=meeting&useWhichPasswd=meeting&clusterId=us06&componentName=need-password&meetingId=UGWLpxEKxW-L-gMhxCiH0c6XBOQeXqsDUNCAnhOSnRNQLybrvCQt4zLJywERmPnY.vayvMDgGU6v5V-aL&originRequestUrl=https%3A%2F%2Fsandtech.zoom.us%2Frec%2Fshare%2F-Dsl_R4DA_rNh7FCWsa8uUX2OR6_Pe2cC-ci2BMvPBAbhIseR11nrwqqfIk-ErwQ.0Z3ySSLrT70FcKWB) *Password - * @W3h5u2$
 
-What is a Portfolio Project?
+### What is a Portfolio Project?
+
 The Portfolio Project is a capstone endeavor designed to encapsulate all the skills and knowledge you’ve acquired during the ALX Foundations program. You will be tasked with creating a project from scratch, showcasing your ability to apply what you’ve learned in a real-world context.
 
-Freedom to Explore
-We’re setting you free on this one. There are no strict guidelines on what to build. Your heart’s desire, guided by your creative spirit, is the limit. Mobile apps, web applications, game development—pick your passion and run with it.
+### Freedom to Explore
 
-Project Structure Overview
+We’re setting you free on this one. There are **no strict guidelines** on what to build. Your heart’s desire, guided by your creative spirit, is the limit. Mobile apps, web applications, game development—pick your passion and run with it.
+
+### Project Structure Overview
+
 Your Portfolio Project will unfold in three distinct stages, each with its own set of objectives and deliverables.
 
-1. Research Phase
-Duration: 3 weeks, comprising 3 mini-projects.
+### 1. Research Phase
 
-Idea Generation: Begin with brainstorming and documenting your project idea.
-MVP Design: Develop a concept for a Minimum Viable Product (MVP).
-Project Planning: Draft a detailed plan on how you’ll execute the projects.
-2. Building Phase
-Duration: 3 weeks, also with 3 projects.
+**Duration:** 3 weeks, comprising 3 mini-projects.
 
-Development: This is where your project starts to take shape. Begin with the MVP and expand from there.
-Landing Page Creation: Develop a compelling landing page for your project.
-Presentation Preparation: Start preparing for your project presentation.
-3. Post-Project Phase
-Duration: 1-2 weeks
+- **Idea Generation:** Begin with brainstorming and documenting your project idea.
+- **MVP Design:** Develop a concept for a Minimum Viable Product (MVP).
+- **Project Planning:** Draft a detailed plan on how you’ll execute the projects.
 
-Blog Post: Write about your experience and what you learned during the project development process.
-GitHub Clean-up: Refine your project’s GitHub repository, focusing on improving the README and documentation.
-Final Presentations: If you haven’t presented your project yet, now is the time.
-Key Considerations
-Teams
+### 2. Building Phase
+
+**Duration:** 3 weeks, also with 3 projects.
+
+- **Development:** This is where your project starts to take shape. Begin with the MVP and expand from there.
+- **Landing Page Creation:** Develop a compelling landing page for your project.
+- **Presentation Preparation:** Start preparing for your project presentation.
+
+### 3. Post-Project Phase
+
+**Duration:** 1-2 weeks
+
+- **Blog Post:** Write about your experience and what you learned during the project development process.
+- **GitHub Clean-up:** Refine your project’s GitHub repository, focusing on improving the README and documentation.
+- **Final Presentations:** If you haven’t presented your project yet, now is the time.
+
+### Key Considerations
+
+**Teams
 You can choose to work individually or collaborate in teams of up to three. However, the team you choose for the Research and Project Approval (Part 1) is the team you’ll work with throughout these seven weeks. Team adjustments won’t be possible.
 
 We highly encourage you to make informed decisions when picking your teammates. Whoever you pick in Research and Project Approval (Part 1) is the person you will be stuck with for the next 8 weeks. Don’t randomly pair up with people. Before making a pairing request to someone or accepting a pairing request from someone, make sure to have a conversation with them.
