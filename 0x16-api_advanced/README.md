@@ -74,3 +74,43 @@ abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$
 	- GitHub repository: `alx-system_engineering-devops`
 	- Directory: `0x16-api_advanced`
 	- File: `0-subs.py`
+
+1. [Top Ten](1-top_ten.py)
+
+Write a function that queries the [Reddit API](https://www.reddit.com/dev/api/) and prints the titles of the first 10 hot posts listed for a given subreddit.
+
+* **Requirements:**
+
+	- Prototype: `def top_ten(subreddit)`
+	- If not a valid subreddit, print None.
+	- NOTE: Invalid subreddits may return a redirect to search results. Ensure that you are not following redirects.
+
+```sh
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ vi 1-top_ten.py 
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ chmod u+x 1-top_ten.py 
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ python3 1-main.py programming
+The State of the Subreddit (May 2024)
+Why does SQLite (in production) have such a bad rep?
+Literally never lose your commits again - git reflog to the rescue 
+GitHub Actions: Cache Chaos
+The systems programming language C3 reaches 0.6, closing in on 1.0
+The real COBOL programmer shortage is 5-10 years out
+Report generating domain-specific language (Forth-like and S-expression)
+Thinking about COBOL for your next career move? Check out this IBM demo of development from 1975.
+Programming Mantras Are Proverbs
+Delivering results at keystroke speed: inside a full-text search engine
+Measured: Intuitive, type-safe units for your favorite Kotlin target
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ python3 1-main.py this_is_a_fake_subreddit
+None
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ 
+```
+
+* **Repo:**
+
+	- GitHub repository: `alx-system_engineering-devops`
+	- Directory: `0x16-api_advanced`
+	- File: `1-top_ten.py`
+
+2. [Recurse it!](2-recurse.py)
+
+
