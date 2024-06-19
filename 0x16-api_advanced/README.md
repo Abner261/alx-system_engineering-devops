@@ -58,7 +58,15 @@ Hint: No authentication is necessary for most features of the Reddit API. If you
 	- NOTE: Invalid subreddits may return a redirect to search results. Ensure that you are not following redirects.
 
 ```sh
-
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ vi 0-subs.py
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ chmod u+x 0-subs.py 
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ ls
+ 0-main.py   0-subs.py  'API Guide.png'   README.md
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ python3 0-main.py programming
+6214520
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ python3 0-main.py this_is_a_fake_subreddit
+0
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$
 ```
 
 * **Repo:**
