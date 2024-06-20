@@ -126,7 +126,13 @@ Note: You may change the prototype, but it must be able to be called with just a
 Your code will NOT pass if you are using a loop and not recursively calling the function! This /can/ be done with a loop but the point is to use a recursive function. :)
 
 ```sh
-
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ vi 2-recurse.py 
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ chmod u+x 2-recurse.py 
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ python3 2-main.py programming
+868
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$ python3 2-main.py this_is_a_fake_subreddit
+None
+abner@engineer:~/alx-system_engineering-devops/0x16-api_advanced$
 ```
 
 * **Repo:**
