@@ -4,7 +4,7 @@
 
 * For this project, we expect you to look at these concepts:
 
-### [1] Web Server
+### (1) Web Server
 
 **Do not mix up web server and server**
 
@@ -20,9 +20,7 @@ As mentioned above, a server is a physical machine, an actual computer, but in t
 	- [Web server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
 	- [What is a Web Server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
 
-### [2] Web stack debugging
-
-[web stack debugging](https://github.com/Abner261/alx-system_engineering-devops/blob/master/0x0E-web_stack_debugging_1/README.md)
+### (2) [web stack debugging](https://github.com/Abner261/alx-system_engineering-devops/blob/master/0x0E-web_stack_debugging_1/README.md)
 
 ### Background Context
 
