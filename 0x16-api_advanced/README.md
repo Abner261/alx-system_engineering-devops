@@ -159,9 +159,6 @@ Your code will NOT pass if you are using a loop and not recursively calling the 
 
 **Disclaimer:** number presented in this example cannot be accurate now - Reddit is hot articles are always changing.
 
-```sh
-
-```
 
 * **Repo:**
 
