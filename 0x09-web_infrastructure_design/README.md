@@ -1,5 +1,10 @@
 ## 0x09. Web infrastructure design
 
+![DevOps](https://img.shields.io/badge/DevOps-red)
+![SysAdmin](https://img.shields.io/badge/SysAdmin-red)
+![web infrastructure](https://img.shields.io/badge/web%20infrastructure-red)
+
+
 ### Resources
 
 * **Read or watch:**
