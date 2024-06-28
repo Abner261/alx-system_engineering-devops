@@ -73,6 +73,22 @@ Nagios is an open source project started in 1999, it is among the most widely us
 
 Wavefront is a cutting edge monitoring service funded by great software engineers who’ve built monitoring tools for the best tech companies in Silicon Valley. The idea is to be able to analyze anything that can produce data points. A query language that looks like SQL allows users to apply mathematical operations to these data points to extract values or detect anomalies from the time series data. While it takes some time to get used to the tool, it’s the type of monitoring that the best companies are using. To my knowledge, LinkedIn, Facebook and DropBox are using a very similar tool for their monitoring needs.
 
+## Web Server
+
+**Do not mix up web server and server.**
+
+A web server is a software that delivers web pages. A server is an actual computer.
+
+But you might hear people referring to a **web server** using the word **server**. (Check out the **server** concept page to learn more about this.)
+
+As mentioned above, a server is a physical machine, an actual computer, but in the Cloud era that could also be a virtual computer, generally called a VM ([Virtual Machine](https://en.wikipedia.org/wiki/Virtual_machine)) or [container](https://www.cio.com/article/247005/what-are-containers-and-why-do-you-need-them.html).
+
+### Readme:
+
+- [Wikipedia page about web server](https://en.wikipedia.org/wiki/Web_server)
+- [Web server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
+- [What is a Web Server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
+
 
 
 ### Resources
