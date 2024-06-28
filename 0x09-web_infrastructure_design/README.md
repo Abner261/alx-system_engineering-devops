@@ -24,9 +24,9 @@
 
 ### Advanced
 
-	- [Use DNS to scale with round-robin DNS](https://www.dnsknowledge.com/whatis/round-robin-dns/)
-	- [What’s an NS Record?](https://support.dnsimple.com/articles/ns-record/)
-	- [What’s an SOA Record?](https://support.dnsimple.com/articles/soa-record/)
+- [Use DNS to scale with round-robin DNS](https://www.dnsknowledge.com/whatis/round-robin-dns/)
+- [What’s an NS Record?](https://support.dnsimple.com/articles/ns-record/)
+- [What’s an SOA Record?](https://support.dnsimple.com/articles/soa-record/)
 
 ### The root domain and sub domain - differences
 
