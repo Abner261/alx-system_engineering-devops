@@ -124,7 +124,7 @@ Servers are located in datacenters which are buildings that host hundreds, or ev
 
 Do not mix up **server** and **web server**. (Check out the **web server** concept page to know more about this.)
 
-
+[Web infrastructure](https://youtu.be/lQNEW76KdYg)
 
 ### Resources
 
