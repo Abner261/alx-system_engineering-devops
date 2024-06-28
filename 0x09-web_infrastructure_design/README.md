@@ -51,7 +51,7 @@ Just as the heart monitor in a hospital that is making sure that a patient’s h
 	- Application monitoring: getting data about your running software and making sure it is behaving as expected
 	- Server monitoring: getting data about your virtual or physical server and making sure they are not overloaded (could be CPU, memory, disk or network overload)
 
-##Here are few famous monitoring tools:
+## Here are few famous monitoring tools:
 
 ### NewRelic
 
