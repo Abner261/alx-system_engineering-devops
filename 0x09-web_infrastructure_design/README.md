@@ -98,6 +98,17 @@ As mentioned above, a server is a physical machine, an actual computer, but in t
 	- [What is TCP/IP](https://www.avast.com/c-what-is-tcp-ip#)
 	- [What is an Internet Protocol (IP) port?](https://www.lifewire.com/port-numbers-on-computer-networks-817939)
 
+## Load balancer
+
+Ever wonder how Facebook, Linkedin, Twitter and other web giants are handling such huge amounts of traffic? They don’t have just one server, but tens of thousands of them. In order to achieve this, web traffic needs to be distributed to these servers, and that is the role of a load-balancer.
+
+![load balancer](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/7842eaab1674315a4d5e721acf930b70e3847f0e/0x09-web_infrastructure_design/load%20balancer.png)
+
+### Readme:
+
+- [Load-balancing](https://www.thegeekstuff.com/2016/01/load-balancer-intro/)
+- [Load-balancing algorithms](https://community.f5.com/kb/technicalarticles/intro-to-load-balancing-for-developers-%E2%80%93-the-algorithms/273759)
+
 
 
 ### Resources
