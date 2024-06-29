@@ -8,7 +8,7 @@
 
 * For this project, we expect you to look at these concepts:
 
-## DNS
+## 1. DNS
 
 ### Basics
 
@@ -40,7 +40,7 @@ In an administrator panel at domain provider account, you can create any number 
 
 As you can see, all of the domain addresses used as an example (above) do not start with the **www** prefix. **www** is also a sub domain. The www prefix always leads to the main domain. See: [What’s the point in having www in a url?](https://serverfault.com/questions/145777/what-s-the-point-in-having-www-in-a-url)
 
-## Monitoring
+## 2. Monitoring
 
 Just as the heart monitor in a hospital that is making sure that a patient’s heart is beating and at the right beat, software monitoring will watch computer metrics, record them, and emit an alert if something is unusual or that could make the computer not work properly happens.
 
@@ -51,7 +51,7 @@ Just as the heart monitor in a hospital that is making sure that a patient’s h
 	- Application monitoring: getting data about your running software and making sure it is behaving as expected
 	- Server monitoring: getting data about your virtual or physical server and making sure they are not overloaded (could be CPU, memory, disk or network overload)
 
-## Here are few famous monitoring tools:
+### Here are few famous monitoring tools:
 
 ### NewRelic
 
@@ -73,7 +73,7 @@ Nagios is an open source project started in 1999, it is among the most widely us
 
 Wavefront is a cutting edge monitoring service funded by great software engineers who’ve built monitoring tools for the best tech companies in Silicon Valley. The idea is to be able to analyze anything that can produce data points. A query language that looks like SQL allows users to apply mathematical operations to these data points to extract values or detect anomalies from the time series data. While it takes some time to get used to the tool, it’s the type of monitoring that the best companies are using. To my knowledge, LinkedIn, Facebook and DropBox are using a very similar tool for their monitoring needs.
 
-## Web Server
+## 3. Web Server
 
 **Do not mix up web server and server.**
 
@@ -89,7 +89,7 @@ As mentioned above, a server is a physical machine, an actual computer, but in t
 - [Web server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
 - [What is a Web Server?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)
 
-## Network basics
+## 4. Network basics
 
 * Networking is a big part of what made computers so powerful and why the Internet exists. It allows machines to communicate with each other.
 
@@ -98,7 +98,7 @@ As mentioned above, a server is a physical machine, an actual computer, but in t
 	- [What is TCP/IP](https://www.avast.com/c-what-is-tcp-ip#)
 	- [What is an Internet Protocol (IP) port?](https://www.lifewire.com/port-numbers-on-computer-networks-817939)
 
-## Load balancer
+## 5. Load balancer
 
 Ever wonder how Facebook, Linkedin, Twitter and other web giants are handling such huge amounts of traffic? They don’t have just one server, but tens of thousands of them. In order to achieve this, web traffic needs to be distributed to these servers, and that is the role of a load-balancer.
 
@@ -109,7 +109,7 @@ Ever wonder how Facebook, Linkedin, Twitter and other web giants are handling su
 - [Load-balancing](https://www.thegeekstuff.com/2016/01/load-balancer-intro/)
 - [Load-balancing algorithms](https://community.f5.com/kb/technicalarticles/intro-to-load-balancing-for-developers-%E2%80%93-the-algorithms/273759)
 
-## Server
+## 6. Server
 
 Servers are located in datacenters which are buildings that host hundreds, or even thousands of computers (servers). You can think of a server as a computer without a keyboard, mouse, or screen, that is accessible only by a network. A server can be physical or virtual. A server runs an OS (operating system).
 
@@ -220,3 +220,38 @@ Please, remember that everything must be written in English to further your tech
 	- File: `0-simple_web_stack`
 
 1. [Distributed web infrastructure](1-distributed_web_infrastructure)
+
+On a whiteboard, design a three server web infrastructure that hosts the `website www.foobar.com`.
+
+* Requirements:
+
+  - You must add:
+
+	- 2 servers
+	- 1 web server (Nginx)
+	- 1 application server
+	- 1 load-balancer (HAproxy)
+	- 1 set of application files (your code base)
+	- 1 database (MySQL)
+
+* You must be able to explain some specifics about this infrastructure:
+
+	- For every additional element, why you are adding it
+	- What distribution algorithm your load balancer is configured with and how it works
+	- Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both
+	- How a database Primary-Replica (Master-Slave) cluster works
+	- What is the difference between the Primary node and the Replica node in regard to the application
+* You must be able to explain what the issues are with this infrastructure:
+
+	- Where are SPOF
+	- Security issues (no firewall, no HTTPS)
+	- No monitoring
+Please, remember that everything must be written in English to further your technical ability in a variety of settings.
+
+[Add URLs here:]()
+
+* **Repo:**
+
+	- GitHub repository: `alx-system_engineering-devops`
+	- Directory: `0x09-web_infrastructure_design`
+	- File: `1-distributed_web_infrastructure`
