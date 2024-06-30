@@ -22,7 +22,7 @@ $ ps axf
 ```
 For more information about child processes, see this [documentation](https://www.gnu.org/software/libc/manual/html_node/Processes.html#Processes)
 
-[web server](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/2123daf00d36162ce204138dfa3a4bf617dedc57/0x0C-web_server/web%20server.png)
+![web server](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/2123daf00d36162ce204138dfa3a4bf617dedc57/0x0C-web_server/web%20server.png)
 
 ### Background Context
 
