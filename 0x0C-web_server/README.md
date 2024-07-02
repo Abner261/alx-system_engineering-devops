@@ -124,8 +124,7 @@ A good Software Engineer is a [lazy Software Engineer](https://www.techwell.com/
 Name		|Username   |	IP    |	State	|
 ----------------|-----------|---------|---------|
 132436-web-01	|	    | 	      |		|
-		|	    |	      |		|
-
+		    	      		
 ## Tasks
 
 0. [Transfer a file to your server](0-transfer_file)
