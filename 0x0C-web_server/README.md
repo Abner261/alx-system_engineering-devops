@@ -225,16 +225,21 @@ Accept-Ranges: bytes
 sylvain@ubuntu$
 ```
 
-In this example 34.198.248.145 is the IP of my web-01 server. If you want to query the Nginx that is locally installed on your server, you can use curl 127.0.0.1.
+In this example `34.198.248.145` is the IP of my `web-01` server. If you want to query the Nginx that is locally installed on your server, you can use `curl 127.0.0.1`
 
-If things are not going as expected, make sure to check out Nginx logs, they can be found in /var/log/.
+If things are not going as expected, make sure to check out Nginx logs, they can be found in `/var/log/`
 
-Maarten’s PRO-tip: When you use sudo su on your web-01 you can become root like this to test your file:
+**Maarten’s PRO-tip:** When you use `sudo su` on your web-01 you can become root like this to test your file:
 
+```sh
 sylvain@ubuntu$ sudo su
 root@ubuntu#
-Repo:
+```
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x0C-web_server
-File: 1-install_nginx_web_server
+* **Repo:**
+
+	- GitHub repository: `alx-system_engineering-devops`
+	- Directory: `0x0C-web_server`
+	- File: `1-install_nginx_web_server`
+
+2. [Setup a domain name](2-setup_a_domain_name)
