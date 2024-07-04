@@ -243,3 +243,79 @@ root@ubuntu#
 	- File: `1-install_nginx_web_server`
 
 2. [Setup a domain name](2-setup_a_domain_name)
+
+[.TECH Domains](https://get.tech/) is one of the top domain providers. They are known for the stability and quality of their DNS hosting solution. We partnered with .TECH Domains so that you can learn about DNS.
+
+**YOU** can have a **free .tech domain** for 1 year by following these steps:
+
+- Access the [tools space](https://intranet.alxswe.com/dashboards/my_tools)
+- Unlock the **GitHub student pack:** WARNING - this invitation link is unique to you and can’t be reclaimed! If you have any issue, please contact [GitHub education support](https://support.github.com/)
+
+![GitHub Student Developer Pack](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/17c2c568130af0d13e99a04c98b6cd03a4205207/0x0C-web_server/GitHub%20Student%20Developer%20Pack.png)
+
+- When registered, access your [benefits](https://education.github.com/auth/failure?message=csrf_detected&origin=&strategy=githubber):
+
+![Benefits](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/965272488cfb1bdf491623b4776f6f967f4a6a20/0x0C-web_server/Student%20Pack%20Benefits.png)
+
+- And scroll to **.Tech domain:**
+
+![Tech domains](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/17365d475fbf13d7f595a1d5c547a5e3002bda92/0x0C-web_server/Tech%20Domains.png)
+
+- Start to register your domain and checkout
+- At the Checkout step, please click on “Login with GitHub”:
+
+![login with github](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/89d3eed5d4f3e45cce89918acab5a67214704325/0x0C-web_server/login%20with%20GitHub.png)
+
+![checkout step](https://github.com/Abner261/alx-system_engineering-devops/blob/master/0x0C-web_server/Authorize%20Tech%20Domains.png?raw=true)
+
+- The cost of the domain should be now at **$0**
+- You can finalize it by creating an account in [.Tech domains](https://get.tech/)
+- And manage your domain there!
+
+Provide the domain name in your answer file.
+
+* Requirement:
+
+- provide the domain name only (example: `foobar.tech`), no subdomain (example: `www.foobar.tech`)
+- configure your DNS records with an A entry so that your root domain points to your `web-01` IP address **Warning: the propagation of your records can take time (~1-2 hours)**
+- go to [your profile](https://intranet.alxswe.com/users/my_profile) and enter your domain in the `Project website url` field
+
+Example:
+
+```sh
+sylvain@ubuntu$ cat 2-setup_a_domain_name
+myschool.tech
+sylvain@ubuntu$
+sylvain@ubuntu$ dig myschool.tech
+
+; <<>> DiG 9.10.6 <<>> myschool.tech
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26785
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;myschool.tech.     IN  A
+
+;; ANSWER SECTION:
+myschool.tech.  7199    IN  A   184.72.193.201
+
+;; Query time: 65 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Fri Aug 02 09:44:36 PDT 2019
+;; MSG SIZE  rcvd: 65
+
+sylvain@ubuntu$
+```
+
+When your domain name is setup, please verify the Registrar here: [https://whois.whoisxmlapi.com/](https://whois.whoisxmlapi.com/) and you must see in the JSON response: `"registrarName": "Dotserve Inc"`
+
+* **Repo:**
+
+	- GitHub repository: `alx-system_engineering-devops`
+	- Directory: `0x0C-web_server`
+	- File: `2-setup_a_domain_name`
+
+3. [Redirection](3-redirection)
