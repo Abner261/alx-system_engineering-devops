@@ -319,3 +319,87 @@ When your domain name is setup, please verify the Registrar here: [https://whois
 	- File: `2-setup_a_domain_name`
 
 3. [Redirection](3-redirection)
+
+* **Readme:**
+
+	- [Replace a line with multiple lines with sed](https://stackoverflow.com/questions/26041088/sed-replace-line-with-multiline-variable)
+
+Configure your Nginx server so that `/redirect_me` is redirecting to another page.
+
+* **Requirements:**
+
+	- The redirection must be a “301 Moved Permanently”
+	- You answer file should be a Bash script containing commands to automatically configure a Ubuntu machine to respect above requirements
+	- Using what you did with `1-install_nginx_web_server`, write `3-redirection` so that it configures a brand new Ubuntu machine to the requirements asked in this task
+
+Example:
+
+```sh
+sylvain@ubuntu$ curl -sI 34.198.248.145/redirect_me/
+HTTP/1.1 301 Moved Permanently
+Server: nginx/1.4.6 (Ubuntu)
+Date: Tue, 21 Feb 2017 21:36:04 GMT
+Content-Type: text/html
+Content-Length: 193
+Connection: keep-alive
+Location: https://www.youtube.com/watch?v=QH2-TGUlwu4
+
+sylvain@ubuntu$
+```
+
+* **Repo:**
+
+	- GitHub repository: `alx-system_engineering-devops`
+	- Directory: `0x0C-web_server`
+	- File: `3-redirection`
+
+4. [Not found page 404](4-not_found_page_404)
+
+Configure your Nginx server to have a custom 404 page that contains the string `Ceci n'est pas une page`
+
+* **Requirements:**
+
+	- The page must return an HTTP 404 error code
+	- The page must contain the string `Ceci n'est pas une page`
+	- Using what you did with `3-redirection`, write `4-not_found_page_404` so that it configures a brand new Ubuntu machine to the requirements asked in this task
+
+Example:
+
+```sh
+sylvain@ubuntu$ curl -sI 34.198.248.145/xyz
+HTTP/1.1 404 Not Found
+Server: nginx/1.4.6 (Ubuntu)
+Date: Tue, 21 Feb 2017 21:46:43 GMT
+Content-Type: text/html
+Content-Length: 26
+Connection: keep-alive
+ETag: "58acb50e-1a"
+
+sylvain@ubuntu$ curl 34.198.248.145/xyzfoo
+Ceci n'est pas une page
+
+sylvain@ubuntu$
+```
+
+* **Repo:**
+
+	- GitHub repository: `alx-system_engineering-devops`
+	- Directory: `0x0C-web_server`
+	- File: `4-not_found_page_404`
+
+5. [Install Nginx web server (w/ Puppet)](7-puppet_install_nginx_web_server.pp)
+
+Time to practice configuring your server with Puppet! Just as you did before, we’d like you to install and configure an Nginx server using Puppet instead of Bash. To save time and effort, you should also include resources in your manifest to perform a 301 redirect when querying /redirect_me.
+
+* **Requirements:**
+
+	- Nginx should be listening on port 80
+	- When querying Nginx at its root `/` with a GET request (requesting a page) using `curl`, it must return a page that contains the string `Hello World!`
+	- The redirection must be a “301 Moved Permanently”
+	- Your answer file should be a Puppet manifest containing commands to automatically configure an Ubuntu machine to respect above requirements
+
+* **Repo:**
+
+	- GitHub repository: `alx-system_engineering-devops`
+	- Directory: `0x0C-web_server`
+	- File: `7-puppet_install_nginx_web_server.pp`
