@@ -8,7 +8,7 @@
 
 * For this project, we expect you to look at these concepts:
 
-## DNS
+1. **DNS**
 
 ### Basics
 
@@ -39,6 +39,9 @@ In an administrator panel at domain provider account, you can create any number 
 
 As you can see, all of the domain addresses used as an example (above) do not start with the **www** prefix. **www** is also a sub domain. The www prefix always leads to the main domain. See: [What’s the point in having www in a url?](https://serverfault.com/questions/145777/what-s-the-point-in-having-www-in-a-url)
 
-[Web stack debugging](https://github.com/Abner261/alx-system_engineering-devops/blob/master/0x0E-web_stack_debugging_1/README.md)
+2. [Web stack debugging](https://github.com/Abner261/alx-system_engineering-devops/blob/master/0x0E-web_stack_debugging_1/README.md)
 
 ![HTTPS](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/fad90f7b30427a42f08385774461ab9cae58c39b/0x10-https_ssl/HTTPS.png)
+
+## Background Context
+What happens when you don’t secure your website traffic?
