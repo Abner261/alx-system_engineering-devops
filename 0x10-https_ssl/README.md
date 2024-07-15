@@ -109,12 +109,12 @@ Requirements:
 - Add the subdomain web-02 to your domain, point it to your `web-02` IP
 * Your Bash script must accept 2 arguments:
 
-  1. `domain`:
+1. `domain`:
     - type: string
     - what: domain name to audit
     - mandatory: yes
 
-  2. `subdomain`:
+2. `subdomain`:
     - type: string
     - what: specific subdomain to audit
     - mandatory: no
