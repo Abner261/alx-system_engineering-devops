@@ -90,3 +90,22 @@ Please, remember that these blogs must be written in English to further your tec
 - File: `1-what_happen_when_diagram`
 
 2. [Contribute!](2-contribution-to_what-happens-when_github_answer)
+
+Folks on the Internet have been trying to put together a comprehensive answer to the question. Help them by submitting a pull request. Paste the link in your answer file.
+
+[https://github.com/alex/what-happens-when#the-g-key-is-pressed](https://github.com/alex/what-happens-when#the-g-key-is-pressed)
+
+Requirements:
+
+- The pull request must bring meaningful value (not a typo correction or style improvement)
+- Share the pull request URL in your answer file and in the field below
+
+Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
+
+[Add URLs here:]()
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter`
+- File: `2-contribution-to_what-happens-when_github_answer`
