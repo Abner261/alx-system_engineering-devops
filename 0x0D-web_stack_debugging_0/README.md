@@ -194,3 +194,5 @@ If a piece of Software isn’t behaving as expected, it can obviously be because
 Debugging can be frustrating, but it will definitely be part of your job, it requires experience and methodology to become good at it. The good news is that bugs are never going away, and the more experienced you become, trickier bugs will be assigned to you! Good luck :)
 
 ![debugging is fun](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/0658234f2351d6672980f1465d1cf132fea79af6/0x0D-web_stack_debugging_0/Debugging.gif)
+
+![i love debugging](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/43bb764bd1b881f285f5c930019d012887db4e69/0x0D-web_stack_debugging_0/I%20love%20debugging.jpg)
