@@ -27,18 +27,20 @@ You can also use this guide for more visual and sample outputs :
 
 1. **Clean Running MySQL Processes :**
 
-Check for any running MYSQL Processes: sudo ps aux | grep mysql
-If MySQL is running,try stopping it : sudo service mysql stop
-Double-check if MySQL is no longer running: sudo ps aux | grep mysql
-If MySQL processes are still running, terminate them, remember to replace PID with the value of your PID : sudo kill -9 <PID>
-Remove Existing MySQL Versions:
+	- Check for any running MYSQL Processes: `sudo ps aux | grep mysql`
+	- If MySQL is running,try stopping it : `sudo service mysql stop`
+	- Double-check if MySQL is no longer running: `sudo ps aux | grep mysql`
+	- If MySQL processes are still running, terminate them, remember to replace PID with the value of your PID : `sudo kill -9 <PID>`
 
-Remove MySQL packages sudo apt-get remove --purge mysql-server mysql-client mysql-common -y && sudo apt-get autoremove -y
-If no errors occurs, proceed to next steps
-If prompted by a dialog to remove data directories, please select YES and press Enter.
-Remove MySQL Apt Configurations :
+2. **Remove Existing MySQL Versions:**
 
-Running the following :::
+	- Remove MySQL packages `sudo apt-get remove --purge mysql-server mysql-client mysql-common -y && sudo apt-get autoremove -y`
+	- If no errors occurs, proceed to next steps
+	- If prompted by a dialog to remove data directories, please select `YES` and press Enter.
+
+3. **Remove MySQL Apt Configurations :**
+
+	- Running the following :::
 sudo rm -rf /etc/apt/sources.list.d/mysql.list*
 sudo rm -rf /var/lib/mysql-apt-config
 sudo dpkg --purge mysql-apt-config
