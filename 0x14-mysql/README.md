@@ -9,7 +9,7 @@
 
 * For this project, we expect you to look at these concepts:
 
-### [How to : ] Fresh Reset and Install mysql 5.7
+### 1. [How to : ] Fresh Reset and Install mysql 5.7
 
  ⚠️ **Before going through the guide try this command if it gonna install MySQL 5.7 correctly, when you see the white windows you can jump to step 9, and see what to choose :**
 ```sh
@@ -79,12 +79,19 @@ You can also use this guide for more visual and sample outputs :
 
 **If issues persist, use the following commands to debug :**
 
-	- `journalctl -u mysql.service`
-	- `cat /var/log/mysql/error.log`
-	- `journalctl -xe`
+- `journalctl -u mysql.service`
+- `cat /var/log/mysql/error.log`
+- `journalctl -xe`
 
 **Check this post o learn more about MySQL**
 
 `https://shazaali.substack.com/p/database-administration`
+
+### 2. Database administration
+
+- [What is a database](https://www.techtarget.com/searchdatamanagement/definition/database)
+- [What is a database primary/replicate cluster](https://www.digitalocean.com/community/tutorials/how-to-choose-a-redundancy-plan-to-ensure-high-availability#sql-replication)
+- [MySQL primary/replicate setup](https://www.digitalocean.com/community/tutorials/how-to-set-up-replication-in-mysql)
+- [Build a robust database backup strategy](https://www.databasejournal.com/ms-sql/developing-a-sql-server-backup-strategy/)
 
 
