@@ -324,3 +324,82 @@ ubuntu@229-web-01:~$
 - Directory: `0x14-mysql`
 
 3. [Quite an experience to live in fear, isn't it?](0x14-mysql)
+
+Before you get started with your primary-replica synchronization, you need one more thing in place. On your **primary** MySQL server (web-01), create a new user for the replica server.
+
+- The name of the new user should be `replica_user`, with the host name set to `%`, and can have whatever password you’d like.
+- `replica_user` must have the appropriate permissions to replicate your primary MySQL server.
+- `holberton_user` will need SELECT privileges on the `mysql.user` table in order to check that `replica_user` was created with the correct permissions
+
+```sh
+ubuntu@229-web-01:~$ mysql -uholberton_user -p -e 'SELECT user, Repl_slave_priv FROM mysql.user'
++------------------+-----------------+
+| user             | Repl_slave_priv |
++------------------+-----------------+
+| root             | Y               |
+| mysql.session    | N               |
+| mysql.sys        | N               |
+| debian-sys-maint | Y               |
+| holberton_user   | N               |
+| replica_user     | Y               |
++------------------+-----------------+
+ubuntu@229-web-01:~$
+```
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x14-mysql`
+
+4. [Setup a Primary-Replica infrastructure using MySQL](4-mysql_configuration_primary, 4-mysql_configuration_replica)
+
+![ Setup a Primary-Replica infrastructure using MySQL](https://github.com/Abner261/alx-system_engineering-devops/blob/master/0x14-mysql/Oops.gif?raw=true)
+
+Having a replica member on for your MySQL database has 2 advantages:
+
+- Redundancy: If you lose one of the database servers, you will still have another working one and a copy of your data
+- Load distribution: You can split the read operations between the 2 servers, reducing the load on the primary member and improving query response speed
+
+### Requirements:
+
+- MySQL primary must be hosted on `web-01` - do not use the `bind-address`, just comment out this parameter
+- MySQL replica must be hosted on `web-02`
+- Setup replication for the MySQL database named `tyrell_corp`
+- Provide your MySQL primary configuration as answer file(`my.cnf` or `mysqld.cnf`) with the name `4-mysql_configuration_primary`
+- Provide your MySQL replica configuration as an answer file with the name `4-mysql_configuration_replica`
+
+### Tips:
+
+- Once MySQL replication is setup, add a new record in your table via MySQL on `web-01` and check if the record has been replicated in MySQL `web-02`. If you see it, it means your replication is working!
+* **Make sure that UFW is allowing connections on port 3306 (default MySQL port) otherwise replication will not work.**
+
+Example:
+
+### `web-01`
+
+```sh
+ubuntu@web-01:~$ mysql -uholberton_user -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 1467
+Server version: 5.5.49-0ubuntu0.14.04.1-log (Ubuntu)
+
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show master status;
++------------------+----------+--------------------+------------------+
+| File             | Position | Binlog_Do_DB       | Binlog_Ignore_DB |
++------------------+----------+--------------------+------------------+
+| mysql-bin.000009 |      107 | tyrell_corp          |                  |
++------------------+----------+--------------------+------------------+
+1 row in set (0.00 sec)
+
+mysql> 
+```
+
