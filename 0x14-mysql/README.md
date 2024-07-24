@@ -351,7 +351,9 @@ ubuntu@229-web-01:~$
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x14-mysql`
 
-4. [Setup a Primary-Replica infrastructure using MySQL](4-mysql_configuration_primary 4-mysql_configuration_replica)
+4. [Setup a Primary-Replica infrastructure using MySQL](4-mysql_configuration_primary)
+
+   [4-mysql_configuration_replica](4-mysql_configuration_replica)
 
 ![ Setup a Primary-Replica infrastructure using MySQL](https://github.com/Abner261/alx-system_engineering-devops/blob/master/0x14-mysql/Oops.gif?raw=true)
 
