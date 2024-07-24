@@ -180,8 +180,8 @@ For the machine level, you want to ask yourself these questions:
 - Can you connect from the location you want to connect from, to the socket you want to connect to? `telnet` to the IP + PORT (`telnet 8.8.8.8 80`)
 * Does the server have the correct firewall rules? `iptables`, `ufw`:
 
-        - `iptables -L`
-        - `sudo ufw status`
+	- `iptables -L`
+	- `sudo ufw status`
 
 ### Process issue
 
@@ -189,13 +189,13 @@ If a piece of Software isn’t behaving as expected, it can obviously be because
 
 * Is the software started? `init`, `init.d`:
 
-        - `service NAME_OF_THE_SERVICE status`
-        - `/etc/init.d/NAME_OF_THE_SERVICE status`
+	- `service NAME_OF_THE_SERVICE status`
+	- `/etc/init.d/NAME_OF_THE_SERVICE status`
 
 * Is the software process running? `pgrep`, `ps`:
 
-        - pgrep -lf NAME_OF_THE_PROCESS
-        - ps auxf
+	- pgrep -lf NAME_OF_THE_PROCESS
+	- ps auxf
 
 * Is there anything interesting in the logs? look for log files in `/var/log/` and `tail -f` is your friend
 
