@@ -1,19 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# nginx server configuration to listen on port 80
 
-# Check if Nginx service is running
-if ! systemctl is-active --quiet nginx; then
-    systemctl start nginx
-fi
-
-# Check if Nginx is configured to listen on port 80
-if ! grep -q "listen 80;" /etc/nginx/sites-available/default; then
-    # Add 'listen 80;' directive to the default server block configuration
-    sed -i '/server {/a \    listen 80;' /etc/nginx/sites-available/default
-    systemctl restart nginx
-fi
-
-# Check if firewall allows traffic on port 80
-if ! ufw status | grep -q "80/tcp"; then
-    ufw allow 80/tcp
-fi
-
+# remove default nginx file config
+rm /etc/nginx/sites-enabled/default
+# nginx config  to listen on port 80 for ll IPV4 Ips
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+# nginx start
+service nginx restart
