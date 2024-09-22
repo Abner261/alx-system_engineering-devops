@@ -1,5 +1,11 @@
 ## 0x1B. Web stack debugging #4
 
+![DevOps](https://img.shields.io/badge/DevOps-red)
+![SysAdmin](https://img.shields.io/badge/SysAdmin-red)
+![Scripting](https://img.shields.io/badge/Scripting-red)
+![Debugging](https://img.shields.io/badge/Debugging-red)
+
+
 Requirements
 General
 All your files will be interpreted on Ubuntu 14.04 LTS
