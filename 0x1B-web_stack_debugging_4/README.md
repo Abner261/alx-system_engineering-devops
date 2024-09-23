@@ -5,19 +5,22 @@
 ![Scripting](https://img.shields.io/badge/Scripting-red)
 ![Debugging](https://img.shields.io/badge/Debugging-red)
 
+![Sky is the limit](https://raw.githubusercontent.com/Abner261/alx-system_engineering-devops/256f23af8dea288432c23af536f605a6a49e883d/0x1B-web_stack_debugging_4/Sky%20is%20the%20limit.jpg)
 
-Requirements
-General
-All your files will be interpreted on Ubuntu 14.04 LTS
-All your files should end with a new line
-A README.md file at the root of the folder of the project is mandatory
-Your Puppet manifests must pass puppet-lint version 2.1.1 without any errors
-Your Puppet manifests must run without error
-Your Puppet manifests first line must be a comment explaining what the Puppet manifest is about
-Your Puppet manifests files must end with the extension .pp
-Files will be checked with Puppet v3.4
+### Requirements
 
-Install puppet-lint
+* **General**
+
+	- All your files will be interpreted on Ubuntu 14.04 LTS
+	- All your files should end with a new line
+	- A `README.md` file at the root of the folder of the project is mandatory
+	- Your Puppet manifests must pass `puppet-lint` version 2.1.1 without any errors
+	- Your Puppet manifests must run without error
+	- Your Puppet manifests first line must be a comment explaining what the Puppet manifest is about
+	- Your Puppet manifests files must end with the extension `.pp`
+	- Files will be checked with Puppet v3.4
+
+**Install** `puppet-lint`
 
 ```
 $ apt-get install -y ruby
