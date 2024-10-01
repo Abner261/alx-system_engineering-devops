@@ -109,3 +109,32 @@ Python 3.8.10
 Flask 2.1.0
 Werkzeug 2.1.1
 ```
+
+**Repo:**
+
+- GitHub repository: `alx-system_engineering-devops`
+- Directory: `0x0A-configuration_management`
+- File: `1-install_a_package.pp`
+
+2. [Execute a command]()
+
+Using Puppet, create a manifest that kills a process named killmenow.
+
+Requirements:
+
+Must use the exec Puppet resource
+Must use pkill
+Example:
+
+Terminal #0 - starting my process
+
+```
+root@d391259bf577:/# cat killmenow
+#!/bin/bash
+while [[ true ]]
+do
+    sleep 2
+done
+
+root@d391259bf577:/# ./killmenow
+```
