@@ -41,16 +41,23 @@ Note on Versioning
 Your Ubuntu 20.04 VM should have Puppet 5.5 preinstalled.
 
 Install puppet
+
+```
 $ apt-get install -y ruby=1:2.7+1 --allow-downgrades
 $ apt-get install -y ruby-augeas
 $ apt-get install -y ruby-shadow
 $ apt-get install -y puppet
+```
+
 You do not need to attempt to upgrade versions. This project is simply a set of tasks to familiarize you with the basic level syntax which is virtually identical in newer versions of Puppet.
 
 Puppet 5 Docs
 
 Install puppet-lint
+
+```
 $ gem install puppet-lint
+```
 
 Tasks
 
@@ -65,6 +72,7 @@ File permission is 0744
 File owner is www-data
 File group is www-data
 File contains I love Puppet
+
 Example:
 
 ```
@@ -89,7 +97,7 @@ I love Puppetroot@6712bef7a528:~#
 - Directory: `0x0A-configuration_management`
 - File: `0-create_a_file.pp`
 
-1. [Install a package]()
+1. [Install a package](1-install_a_package.pp)
 
 Using Puppet, install flask from pip3.
 
@@ -116,7 +124,7 @@ Werkzeug 2.1.1
 - Directory: `0x0A-configuration_management`
 - File: `1-install_a_package.pp`
 
-2. [Execute a command]()
+2. [Execute a command](2-execute_a_command.pp)
 
 Using Puppet, create a manifest that kills a process named killmenow.
 
@@ -162,3 +170,5 @@ root@d391259bf577:/#
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x0A-configuration_management`
 - File: `2-execute_a_command.pp`
+
+
