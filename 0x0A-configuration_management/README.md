@@ -67,7 +67,7 @@ $ gem install puppet-lint
 
 0. [Create a file]()
 
-Using Puppet, create a file in /tmp.
+Using Puppet, create a file in `/tmp`.
 
 ### Requirements:
 
@@ -103,15 +103,15 @@ I love Puppetroot@6712bef7a528:~#
 
 1. [Install a package](1-install_a_package.pp)
 
-Using Puppet, install flask from pip3.
+Using Puppet, install flask from `pip3`.
 
 ### Requirements:
 
 ### Install flask
 
-Version must be 2.1.0
+Version must be `2.1.0`
 
-Example:
+### Example:
 
 ```
 root@9665f0a47391:/# puppet apply 1-install_a_package.pp
@@ -139,7 +139,7 @@ Using Puppet, create a manifest that kills a process named killmenow.
 - Must use the exec Puppet resource
 - Must use pkill
 
-Example:
+### Example:
 
 Terminal #0 - starting my process
 
@@ -177,5 +177,4 @@ root@d391259bf577:/#
 - GitHub repository: `alx-system_engineering-devops`
 - Directory: `0x0A-configuration_management`
 - File: `2-execute_a_command.pp`
-
 
