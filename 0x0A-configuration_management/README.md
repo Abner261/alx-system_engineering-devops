@@ -56,7 +56,7 @@ $ apt-get install -y puppet
 
 You do not need to attempt to upgrade versions. This project is simply a set of tasks to familiarize you with the basic level syntax which is virtually identical in newer versions of Puppet.
 
-Puppet 5 Docs
+[Puppet 5 Docs]()
 
 ### Install `puppet-lint`
 
@@ -104,13 +104,13 @@ I love Puppetroot@6712bef7a528:~#
 
 1. [Install a package](1-install_a_package.pp)
 
-Using Puppet, install flask from `pip3`.
+Using Puppet, install `flask` from `pip3`.
 
 ### Requirements:
 
-### Install flask
+- Install `flask`
 
-Version must be `2.1.0`
+- Version must be `2.1.0`
 
 ### Example:
 
@@ -133,12 +133,12 @@ Werkzeug 2.1.1
 
 2. [Execute a command](2-execute_a_command.pp)
 
-Using Puppet, create a manifest that kills a process named killmenow.
+Using Puppet, create a manifest that kills a process named `killmenow`.
 
 ### Requirements:
 
-- Must use the exec Puppet resource
-- Must use pkill
+- Must use the `exec` Puppet resource
+- Must use `pkill`
 
 ### Example:
 
