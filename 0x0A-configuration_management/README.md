@@ -142,7 +142,7 @@ Using Puppet, create a manifest that kills a process named `killmenow`.
 
 ### Example:
 
-Terminal #0 - starting my process
+### Terminal #0 - starting my process
 
 ```
 root@d391259bf577:/# cat killmenow
@@ -155,7 +155,7 @@ done
 root@d391259bf577:/# ./killmenow
 ```
 
-Terminal #1 - executing my manifest
+### Terminal #1 - executing my manifest
 
 ```
 root@d391259bf577:/# puppet apply 2-execute_a_command.pp
@@ -165,7 +165,7 @@ Notice: Finished catalog run in 0.10 seconds
 root@d391259bf577:/# 
 ```
 
-Terminal #0 - process has been terminated
+### Terminal #0 - process has been terminated
 
 ```
 root@d391259bf577:/# ./killmenow
