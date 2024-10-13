@@ -78,7 +78,7 @@ Using Puppet, create a file in `/tmp`.
 - File group is `www-data`
 - File contains `I love Puppet`
 
-### Example:
+ Example:
 
 ```
 root@6712bef7a528:~# puppet-lint --version
@@ -112,7 +112,7 @@ Using Puppet, install `flask` from `pip3`.
 
 - Version must be `2.1.0`
 
-### Example:
+Example:
 
 ```
 root@9665f0a47391:/# puppet apply 1-install_a_package.pp
@@ -140,7 +140,7 @@ Using Puppet, create a manifest that kills a process named `killmenow`.
 - Must use the `exec` Puppet resource
 - Must use `pkill`
 
-### Example:
+Example:
 
 ### Terminal #0 - starting my process
 
