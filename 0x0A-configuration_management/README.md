@@ -13,6 +13,7 @@
 - There were 2 pieces of bad news:
 
 1. When MCollective receives `nil` as an argument for its filter method, it takes this to mean ‘all servers’
+
 2. The action I sent was to terminate the selected servers
 
 - I started the parallel job-execution and after some time, I realized that it was taking longer than expected. Looking at logs I realized that I was shutting down SlideShare’s entire document conversion environment. Actually, 75% of all our conversion infrastructure servers had been shut down, resulting in users not able to convert their PDFs, powerpoints, and videos… Pretty bad!
@@ -142,7 +143,7 @@ Using Puppet, create a manifest that kills a process named `killmenow`.
 
 Example:
 
-### Terminal #0 - starting my process
+Terminal #0 - starting my process
 
 ```
 root@d391259bf577:/# cat killmenow
@@ -155,7 +156,7 @@ done
 root@d391259bf577:/# ./killmenow
 ```
 
-### Terminal #1 - executing my manifest
+Terminal #1 - executing my manifest
 
 ```
 root@d391259bf577:/# puppet apply 2-execute_a_command.pp
@@ -165,7 +166,7 @@ Notice: Finished catalog run in 0.10 seconds
 root@d391259bf577:/# 
 ```
 
-### Terminal #0 - process has been terminated
+Terminal #0 - process has been terminated
 
 ```
 root@d391259bf577:/# ./killmenow
