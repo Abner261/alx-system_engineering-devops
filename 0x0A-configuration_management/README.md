@@ -22,6 +22,8 @@ Thanks to Puppet, we were able to restore our infrastructure to normal operation
 
 Obviously writing Puppet code for your infrastructure requires an investment of time and energy, but in the long term, it is for sure a must-have.
 
+That was me ^_^‘: [https://x.com/devopsreact/status/836971570136375296]()
+
 ### Resources
 
 **Read or watch:**
