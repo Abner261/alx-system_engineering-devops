@@ -164,7 +164,7 @@ root@0a62aa706eb3:/#
 
 1. [User limit](1-user_limit.pp)
 
-- Change the OS configuration so that it is possible to login with the `holberton` user and open a file without any error message.
+Change the OS configuration so that it is possible to login with the `holberton` user and open a file without any error message.
 
 ```
 root@079b7269ec1b:~# su - holberton
